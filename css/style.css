@@ -3,10 +3,12 @@
 }
 #main-page{
     background-color: rgba(83, 83, 83, 0.432);
+
 }
 .menu{
     margin: 0;
     padding: 0;
+    display: block;
 }
 .nav-item{
     float: right;
@@ -42,7 +44,9 @@ main h3 a{
   font-size: 20px;
   align-self: center;
   margin: 0 auto;
-}
+  font-size: 20px;
+  margin-left: 30px;
+  }
 .project-item img{
   height: 50%;
   width: 60%;
