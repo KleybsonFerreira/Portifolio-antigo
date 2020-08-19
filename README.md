@@ -1,2 +1,2 @@
-# projeto-site
- Projeto de um site criado durante um curso de git e github
+# Site-portfolio
+ Um site simples pra servir de portfolio para meus projetos de front-end
