@@ -46,19 +46,30 @@ main h3 a{
   margin: 0 auto;
   font-size: 20px;
   margin-left: 30px;
+  text-align: center;
   }
 .project-item img{
   height: 50%;
   width: 60%;
 }
 
+
 #redes{
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-    
+  
 }
+.sup{
+  height: 50px;
+}
+#redes img{
+  padding-left: 18px;
+    height: 44px;
+}
+
+
 
 
 ul {
@@ -91,3 +102,33 @@ ul {
   li a:hover {
     background-color: rgba(83, 83, 83, 0.589);;
   }
+
+  @media (max-width: 375px) 
+{
+  main h3 {
+    text-align: center;
+  }
+
+  
+  .project-item p{
+  position: absolute;
+  top: 987px;
+  text-align: center;
+    margin: 0;
+  }
+
+  .project-item img{
+    height: 90%;
+    width: 90%;
+
+    position: relative;
+    top: -48px;
+  }
+
+  .home-img{
+    margin-top:118px;
+  }
+  
+
+
+}
